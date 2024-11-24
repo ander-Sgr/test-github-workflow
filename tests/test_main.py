@@ -26,3 +26,4 @@ class TestMain(unittest.TestCase):
         self.assertEqual(div(5, -3), -5/3)
         self.assertEqual(div(-5, -3), 5/3)
         self.assertEqual(div(5, 0), "Can't posible divide to zero")
+        self.assertEqual(div(3444, 0), "Can't posible divide to zero")
